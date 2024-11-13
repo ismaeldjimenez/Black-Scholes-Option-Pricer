@@ -1,8 +1,8 @@
-streamlit==1.39.0
-pandas==2.2.3
-numpy==1.21.1
-matplotlib==3.5.2
-qbstyles==0.1.4
-seaborn==0.11.2
-QuantLib==1.36
+streamlit
+pandas
+numpy
+matplotlib
+qbstyles
+seaborn
+QuantLib
 setuptools
