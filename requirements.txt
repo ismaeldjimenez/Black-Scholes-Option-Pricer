@@ -1,6 +1,6 @@
 streamlit==1.39.0
 pandas==2.2.3
-numpy==2.25.1
+numpy==2.21.1
 matplotlib==3.5.2
 qbstyles==0.1.4
 seaborn==0.11.2
