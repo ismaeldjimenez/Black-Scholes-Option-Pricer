@@ -2,7 +2,6 @@ import QuantLib as ql
 import numpy as np
 import seaborn as sns
 import time
-from scipy.stats import norm
 
 class BlackScholes:
     def __init__(self):
