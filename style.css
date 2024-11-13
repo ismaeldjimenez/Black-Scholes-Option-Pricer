@@ -1,0 +1,143 @@
+
+/* Part 1 */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
+
+/* DASHBOARD PADDING */
+div.block-container.css-z5fcl4.egzxvld4 {
+    width: 100%;
+    min-width: auto;
+    max-width: initial;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+/* GLOBAL FONT CHANGE */
+html, body, [class*="css"] {
+    font-family: 'Space Grotesk'; 
+}
+
+.st-ae {
+    font-family: 'Space Grotesk';
+}
+
+/* CONTAINER CSS */
+[data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
+    border: 1px groove #52546a;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: -6px 8px 20px 1px #00000052;
+}
+
+/* CUSTOM MARKDOWN CLASSES */
+.dashboard_title {
+    font-size: 35px; 
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.price_details {
+    font-size: 20px; 
+    font-family: 'Space Grotesk';
+    color: #f6f6f6;
+    font-weight: 900;
+    text-align: left;
+    line-height: 1.0;
+    padding-bottom: 10px;
+}
+
+.price_text {
+    font-size: 14px; 
+    font-family: 'Space Grotesk';
+    color: #CFFF3C;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.0;
+    padding-top: 10px;
+    min-height: 40px;
+}
+
+.rate_text {
+    font-size: 14px; 
+    font-family: 'Space Grotesk';
+    color: #3CD6FF;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.0;
+    padding-top: 10px;
+    min-height: 40px;
+}
+
+.call_vol_text {
+    font-size: 14px; 
+    font-family: 'Space Grotesk';
+    color: #90ee90;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.0;
+    padding-top: 10px;
+    min-height: 40px;
+}
+
+.put_vol_text {
+    font-size: 14px; 
+    font-family: 'Space Grotesk';
+    color: #ff817f;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.0;
+    padding-top: 10px;
+    min-height: 40px;
+}
+
+/* Part 2 */
+/* FORM CSS */
+[data-testid="stForm"] {
+    position: relative;
+    box-shadow: -6px 8px 20px 1px #00000052;
+    border-radius: 10px;
+} 
+
+/* Adjust the size and alignment of the CALL and PUT value containers */
+.metric-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px; /* Adjust the padding to control height */
+    width: auto; /* Auto width for responsiveness, or set a fixed width if necessary */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Custom classes for CALL and PUT values */
+.metric-call {
+    background-color: #90ee90; /* Light green background */
+    color: black; /* Black font color */
+    margin-right: 10px; /* Spacing between CALL and PUT */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.metric-put {
+    background-color: #ff817f; /* Light red background */
+    color: black; /* Black font color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Style for the value text */
+.metric-value {
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+    margin: 0; /* Remove default margins */
+}
+
+/* Style for the label text */
+.metric-label {
+    font-size: 1.0rem; /* Adjust font size */
+    margin-bottom: 4px; /* Spacing between label and value */
+} 
